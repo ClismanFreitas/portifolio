@@ -1,7 +1,7 @@
 {
   "name": "portifolio",
   "private": true,
-  "homepage": "https://clismanfreitas.github.io/portifolio/",
+  "homepage": "https://clismanfreitas.github.io/portifolio",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
