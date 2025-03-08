@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font: normal 75% Arial, Helvetica, sans-serif;
+    overflow-x: hidden; /* Evita barra de rolagem horizontal */
+    background-color: #000; /* Garante um fundo preto de fallback */
+}
+
+canvas {
+    display: block;
+}
+
+#particles-js {
+    position: fixed; /* Mantém fixo apenas na tela inicial */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    z-index: -1; /* Garante que fique atrás do conteúdo */
+    pointer-events: none; /* Evita interferência em cliques */
+}
+
+.count-particles {
+    background: rgba(0, 0, 34, 0.8);
+    position: absolute;
+    top: 48px;
+    left: 10px;
+    width: 80px;
+    color: #13E8E9;
+    font-size: 0.8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.js-count-particles {
+    font-size: 1.1em;
+}
+
+#stats,
+.count-particles {
+    user-select: none;
+    margin: 5px;
+}
+
+#stats {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+}
+
+.count-particles {
+    border-radius: 0 0 3px 3px;
+}
