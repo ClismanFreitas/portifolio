@@ -18,7 +18,7 @@ const Inicio = () => {
             </div>
             <div className='icons'>
                 <a href="https://www.linkedin.com/in/clisman-freitas-8b748a2b1/" target="_blank" rel="noopener noreferrer" ><img src={LinkedinIcon} alt="" /></a>
-                <a href="https://www.linkedin.com/in/clisman-freitas-8b748a2b1/" target="_blank" rel="noopener noreferrer" ><img src={GitHubIcon} alt="" /></a>
+                <a href="https://github.com/ClismanFreitas" target="_blank" rel="noopener noreferrer" ><img src={GitHubIcon} alt="" /></a>
             </div>
             <div className='pulando'>
                 <img  src={SetaIcon} alt="" />
