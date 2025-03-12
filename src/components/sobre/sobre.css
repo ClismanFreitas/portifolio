@@ -1,20 +1,20 @@
 .container-conteudo {
     display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: flex-start; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
     padding-top: 50px;
-    
+
 }
 
-.container-conteudo h3{
+.container-conteudo h3 {
     padding-top: 30px;
     font-size: 40px;
     font-weight: bold;
-    
+
 }
 
-.conteudo{
+.conteudo {
     background-color: rgba(47, 48, 48, 0.671);
     width: 1200px;
     height: 800px;
@@ -25,59 +25,60 @@
 }
 
 
-.foto{
+.foto {
     width: 100%;
     height: auto;
 }
 
 
-.sobre{
+.sobre {
     display: flex;
     align-items: center;
     transform: translateY(50%);
     padding-left: 20px;
 }
 
-.descricao{
+.descricao {
     font-size: 20px;
     padding: 20px;
 }
 
-.caixa{
-   position: relative;
-   background-color: rgb(0, 0, 0);
-   width: 330em;
-   height: 30em;
-   border-radius: 50%;
-   overflow: hidden;
+.caixa {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    width: 600vw; 
+    height: 60vh; 
+    max-width: 330px; 
+    max-height: 330px; 
+    border-radius: 50%;
+    overflow: hidden;
 }
 
-
-.caixa::before{
+.caixa::before {
     content: "";
     position: absolute;
-    inset: -10px 140px;
+    inset: -10% 30%; 
     background: linear-gradient(315deg, purple, white);
     transition: .5s;
     animation: animar 4s linear infinite;
     z-index: 0;
-} 
+}
 
 @keyframes animar {
-    0%{
-      transform: rotate(0deg);
+    0% {
+        transform: rotate(0deg);
     }
-    100%{
-      transform: rotate(360deg);
+
+    100% {
+        transform: rotate(360deg);
     }
-    
 }
 
-.caixa:hover::before{
-    inset: -20px 0px;;
+.caixa:hover::before {
+    inset: -20px 0px;
 }
 
-.caixa::after{
+.caixa::after {
     content: "";
     position: absolute;
     inset: 6px;
@@ -87,7 +88,7 @@
 }
 
 
-.conteudo-perfil img{
+.conteudo-perfil img {
     position: absolute;
     pointer-events: none;
     transition: .5s;
@@ -95,7 +96,7 @@
 
 }
 
-.conteudo-perfil{
+.conteudo-perfil {
     position: absolute;
     inset: 30px;
     border: 6px solid black;
@@ -109,12 +110,11 @@
     user-select: none;
 }
 
-.caixa:hover .foto{
+.caixa:hover .foto {
     opacity: 0;
 }
 
-.conteudo-perfil h2{
-    font-weight: 1.5em;
+.conteudo-perfil h2 {
     text-align: center;
     color: white;
     font-weight: 600;
@@ -122,16 +122,16 @@
     text-transform: uppercase;
 }
 
-.conteudo-perfil h2 span{
+.conteudo-perfil h2 span {
     font-weight: 300;
     font-size: .75em;
 }
 
-.conteudo-perfil > span{
+.conteudo-perfil>span {
     font-size: 2.5em;
 }
 
-.conteudo-perfil a{
+.conteudo-perfil a {
     margin-top: 10px;
     background: white;
     padding: 10px 20px;
@@ -145,6 +145,92 @@
     transition: .5s;
 }
 
-.conteudo-perfil a:hover{
+.conteudo-perfil a:hover {
     letter-spacing: .4em;
 }
+
+/* Responsivo */
+
+@media (max-width: 1350px){
+    .container-conteudo {
+        padding-bottom: 20px;
+    }
+
+    .conteudo {
+        width: 90vw;
+        height: 80vh;
+    }
+    
+    .sobre{
+        transform: translateY(25%);
+        padding: 5px;
+    }
+}
+
+@media (max-width: 1170px){
+    .container-conteudo {
+        padding-bottom: 20px;
+    }
+
+    .conteudo {
+        width: 90vw;
+        height: 90vh;
+    }
+    
+    .sobre{
+        transform: translateY(10%);
+        padding: 5px;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .container-conteudo {
+        padding-bottom: 20px;
+    }
+
+    .conteudo {
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .sobre{
+        transform: translateY(20%);
+        padding: 5px;
+    }
+
+    .caixa {
+        width: 700vw; 
+        height: 70vh;
+        max-width: 250px; 
+        max-height: 250px; 
+        
+    }
+
+    .caixa::before {
+        inset: -15% 29%; 
+    }
+
+    .conteudo-perfil a {
+        padding: 8px 10px;
+    }
+
+    .conteudo-perfil a:hover {
+        letter-spacing: .2em;
+    }
+
+    .descricao {
+        font-size: 15px;
+        padding: 20px;
+    }
+
+}
+
+
+@media (max-width: 780px){
+    .sobre{
+        transform: translateY(0);
+        padding: 5px;
+    }
+}
+
