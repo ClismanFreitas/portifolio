@@ -203,8 +203,7 @@
         width: 700vw; 
         height: 70vh;
         max-width: 250px; 
-        max-height: 250px; 
-        
+        max-height: 250px;  
     }
 
     .caixa::before {
@@ -231,6 +230,40 @@
     .sobre{
         transform: translateY(0);
         padding: 5px;
+    }
+}
+
+@media(max-width: 500px){
+    .sobre{
+        flex-direction: column;
+    }
+
+    .caixa {
+        max-width: 250px; 
+        max-height: 250px;  
+    }
+
+    .conteudo {
+        width: 90vw;
+        height: 730px;
+    }
+    
+    .descricao{
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 370px){
+    .conteudo {
+        width: 90vw;
+        height: 780px;
+    }
+}
+
+@media(max-width: 340px){
+    .conteudo {
+        width: 90vw;
+        height: 840px;
     }
 }
 

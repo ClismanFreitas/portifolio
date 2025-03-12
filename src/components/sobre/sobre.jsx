@@ -12,7 +12,7 @@ const SobreMim = () => {
                             <img className='foto' src={PerfilIcon} alt="" />
                             <span>👨‍💻</span>
                             <h2>Clisman Dev<br/><span>Dev Web</span></h2>
-                            <a href='https://www.youtube.com/watch?v=1UJw3csGAAE&list=RDerXQAH1L1Zs&index=2' target='_blanck'>Contrate</a>
+                            <a href='https://www.linkedin.com/in/clisman-freitas-8b748a2b1/' target='_blanck'>Contrate</a>
                         </div>
                     </div>
                     <p className='descricao'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, corporis error molestias facere molestiae praesentium culpa. Praesentium ipsam, aliquam unde harum perspiciatis aliquid saepe reiciendis voluptas esse, in asperiores vero?Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, corporis error molestias facere molestiae praesentium culpa. Praesentium ipsam, aliquam unde harum perspiciatis aliquid saepe reiciendis voluptas esse, in asperiores vero?Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, corporis error molestias facere molestiae praesentium culpa. Praesentium ipsam, aliquam unde harum perspiciatis aliquid saepe reiciendis voluptas esse, in asperiores vero?Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, corporis error molestias facere molestiae praesentium culpa. Praesentium ipsam, aliquam unde harum perspiciatis aliquid saepe reiciendis voluptas esse, in asperiores vero?</p>

@@ -8,7 +8,7 @@
     align-items: center;
     height: 100vh;
     flex-direction: column;
-    
+    position: relative;
 }
 
 .particles-container {
@@ -93,5 +93,71 @@
     }
     50% {
         transform: translateX(-50%) translateY(-30px) rotate(90deg); 
+    }
+}
+
+.baixarCV {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+.baixarCV button {
+    background-color: purple;
+    padding: 10px 50px;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    animation: piscar .8s infinite;   
+}
+
+@keyframes piscar {
+    0% {
+        opacity: 1;
+        box-shadow: 0 0 10px blueviolet;
+    }
+    50% {
+        opacity: 0.5;
+        box-shadow: 0 0 20px blueviolet;
+    }
+    100% {
+        opacity: 1;
+        box-shadow: 0 0 10px blueviolet;
+    }
+}
+
+@media(max-width: 500px) {
+
+    .baixarCV button{
+        padding: 5px 15px;
+    }
+
+    .nome-Autor{
+        font-size: 50px;
+    }
+
+    .txt-animado{
+        font-size: 20px;
+    }
+
+    .icons img{
+        width: 90%;
+    }
+
+    .icons a img:hover{
+        width: 100%;
+     }
+
+}
+
+@media(max-width: 370px){
+    .nome-Autor{
+        font-size: 40px;
+    }
+
+    .txt-animado{
+        font-size: 18px;
     }
 }
