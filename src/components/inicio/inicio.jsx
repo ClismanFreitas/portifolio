@@ -10,7 +10,6 @@ const Inicio = () => {
         <div className="inicio-section">
             <ParticlesBackground />
             <header className='container'>
-                <ParticlesBackground />
                 <p>Olá! Meu nome é</p>
                 <h1 className='nome-Autor'>Clisman Freitas</h1>
                 <div className="txt-animado">
