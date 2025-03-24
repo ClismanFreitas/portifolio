@@ -148,8 +148,6 @@
     letter-spacing: .4em;
 }
 
-/* Responsivo */
-
 @media (max-width: 1350px){
     .container-conteudo {
         padding-bottom: 20px;
@@ -223,7 +221,6 @@
     }
 
 }
-
 
 @media (max-width: 780px){
     .sobre{
