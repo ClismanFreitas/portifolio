@@ -1,10 +1,10 @@
-import htmlIcon from '../../assets/images/img-skills/html.png'
-import cssIcon from '../../assets/images/img-skills/css.png'
-import jsIcon from '../../assets/images/img-skills/js.png'
-import reactIcon from '../../assets/images/img-skills/react.png'
-import typescriptIcon from '../../assets/images/img-skills/typescript.png'
-import gitIcon from '../../assets/images/img-skills/git.png'
-import perfil2 from '../../assets/images/perfil/perfil-2.png'
+import htmlIcon from '@assets/images/img-skills/html.png'
+import cssIcon from '@assets/images/img-skills/css.png'
+import jsIcon from '@assets/images/img-skills/js.png'
+import reactIcon from '@assets/images/img-skills/react.png'
+import typescriptIcon from '@assets/images/img-skills/typescript.png'
+import gitIcon from '@assets/images/img-skills/git.png'
+import perfil2 from '@assets/images/perfil/perfil-2.png'
 import './skill.css'
 
 const Skills = () => {

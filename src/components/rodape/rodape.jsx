@@ -1,8 +1,8 @@
 import "./rodape.css"
-import Instagram from "../../assets/icons/social.png"
-import Linkedi from "../../assets/icons/linkedi.png"
-import GitHu from "../../assets/icons/githu.png"
-import Email from "../../assets/icons/mail.png"
+import Instagram from "@assets/icons/social.png"
+import Linkedi from "@assets/icons/linkedi.png"
+import GitHu from "@assets/icons/githu.png"
+import Email from "@assets/icons/mail.png"
 
 
 const Rodape = () => {
