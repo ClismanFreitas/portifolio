@@ -4,7 +4,7 @@
     padding: 20px 50px;
     display: flex;
     justify-content: center;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.616) 10%, rgba(47, 48, 48, 0.671) 50%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.616) 10%, #0B0B0B 50%);
     position: relative;
 }
 
@@ -79,38 +79,6 @@ hr {
     gap: 10px;
 }
 
-.curriculo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.curriculo a{
-    background-color: purple;
-    padding: 5px 10px;
-    color: white;
-    border: 1px solid white;
-    font-size: 18px;
-    border-radius: 5px;
-    animation: piscar .8s infinite;
-}
-
-@keyframes piscar {
-    0% {
-        opacity: 1;
-        box-shadow: 0 0 10px blueviolet;
-    }
-    50% {
-        opacity: 0.5;
-        box-shadow: 0 0 20px blueviolet;
-    }
-    100% {
-        opacity: 1;
-        box-shadow: 0 0 10px blueviolet;
-    }
-}
-
 @media (max-width: 700px){
     .baixo {
         flex-direction: column;
@@ -132,11 +100,6 @@ hr {
 
     .links img {
         width: 25px; 
-    }
-
-    .curriculo a {
-        font-size: 16px; 
-        text-align: center;
     }
 
     .creditos {

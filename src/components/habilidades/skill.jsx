@@ -20,7 +20,7 @@ const Skills = () => {
                 <li className='gitIcon'><img src={gitIcon} alt="" /></li>
             </ul>
             <div className='descricao-skill'>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi corrupti cupiditate repudiandae? Nulla necessitatibus excepturi ducimus corrupti natus ipsam maiores ab totam fugiat expedita, quos, molestiae nihil. Dolores, cum voluptate?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed ut architecto iure iste, repellat est officia quia molestias provident! Quibusdam voluptates officia recusandae optio aut? Laboriosam accusamus harum hic quasi?Sed ut architecto iure iste, repellat est officia quia molestias provident! Quibusdam voluptates officia recusandae optio aut? Laboriosam accusamus harum hic quasi?</p>
+                <p>Sou especializado em desenvolvimento de aplicativos web e móveis, com ênfase no Front-End. Utilizo HTML, CSS e JavaScript para criar interfaces interativas, responsivas e de alto desempenho. Com React, desenvolvo componentes dinâmicos e escaláveis, criando experiências de usuário fluidas e eficientes. O uso de TypeScript me permite garantir a robustez do código, adicionando tipagem estática e facilitando a manutenção e escalabilidade das aplicações. <br/><br/> Além disso, sou proficiente no uso de Git para versionamento de código, garantindo um fluxo de trabalho colaborativo eficiente e o controle das alterações no projeto. Estou sempre em busca de otimizar processos, melhorar a performance das aplicações e entregar soluções que atendam às necessidades reais dos usuários.</p>
                 <div className='perfil2'><img src={perfil2} alt="" /></div>
             </div>
         </section>

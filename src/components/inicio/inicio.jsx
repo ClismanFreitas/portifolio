@@ -22,9 +22,6 @@ const Inicio = () => {
                 <div className='pulando'>
                     <img src={SetaIcon} alt="" />
                 </div>  
-                <div className="baixarCV">
-                    <button>Baixar Currículo</button>
-                </div>
             </header>
         </div>
     )

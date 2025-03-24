@@ -75,7 +75,7 @@
     width: 0;
     }
     100%{
-        width: 0;
+        width: 15ch;
     }
 }
 
@@ -96,43 +96,7 @@
     }
 }
 
-.baixarCV {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-}
-
-.baixarCV button {
-    background-color: purple;
-    padding: 10px 50px;
-    color: white;
-    border: 1px solid white;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
-    animation: piscar .8s infinite;   
-}
-
-@keyframes piscar {
-    0% {
-        opacity: 1;
-        box-shadow: 0 0 10px blueviolet;
-    }
-    50% {
-        opacity: 0.5;
-        box-shadow: 0 0 20px blueviolet;
-    }
-    100% {
-        opacity: 1;
-        box-shadow: 0 0 10px blueviolet;
-    }
-}
-
 @media(max-width: 500px) {
-
-    .baixarCV button{
-        padding: 5px 15px;
-    }
 
     .nome-Autor{
         font-size: 50px;
