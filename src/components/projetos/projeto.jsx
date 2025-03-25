@@ -7,7 +7,7 @@ import AttackOnTitan from "../../assets/images/sliders/Projeto-Attack-on-titan.p
 import Formulario from "../../assets/images/sliders/Projeto-Formulario.png";
 
 import MobileDesigner from "../../assets/images/sliders/iPhoneDesigner.png";
-import MobileGitHub from "../../assets/images/sliders/iPhoneGitHub.png";
+import MobileGitHub from "../../assets/images/sliders/IphoneGitHub.png";
 import MobileAttackOnTitan from "../../assets/images/sliders/iPhoneAttack.png";
 import MobileFormulario from "../../assets/images/sliders/iPhoneFormulario.png";
 
