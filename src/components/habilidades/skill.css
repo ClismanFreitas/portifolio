@@ -247,6 +247,7 @@
     margin: 15px;
 }
 
+/* Responsivo */
 @media (max-width: 1290px) {
     .skills {
         gap: 50px;

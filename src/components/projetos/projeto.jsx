@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from "react";
 import "./project.css";
 
-import Designer from "@assets/images/sliders/Projeto-Designer.png";
-import GitHub from "@assets/images/sliders/Projeto-GitHub.png";
-import AttackOnTitan from "@assets/images/sliders/Projeto-Attack-on-titan.png";
-import Formulario from "@assets/images/sliders/Projeto-Formulario.png";
+import Designer from "../../assets/images/sliders/Projeto-Designer.png";
+import GitHub from "../../assets/images/sliders/Projeto-GitHub.png";
+import AttackOnTitan from "../../assets/images/sliders/Projeto-Attack-on-titan.png";
+import Formulario from "../../assets/images/sliders/Projeto-Formulario.png";
 
-import MobileDesigner from "@assets/images/sliders/iPhoneDesigner.png";
-import MobileGitHub from "@assets/images/sliders/iPhoneGitHub.png";
-import MobileAttackOnTitan from "@assets/images/sliders/iPhoneAttack.png";
-import MobileFormulario from "@assets/images/sliders/iPhoneFormulario.png";
+import MobileDesigner from "../../assets/images/sliders/iPhoneDesigner.png";
+import MobileGitHub from "../../assets/images/sliders/iPhoneGitHub.png";
+import MobileAttackOnTitan from "../../assets/images/sliders/iPhoneAttack.png";
+import MobileFormulario from "../../assets/images/sliders/iPhoneFormulario.png";
 
 const Projetos = () => {
     const [isMobile, setIsMobile] = useState(window.innerWidth <= 600);

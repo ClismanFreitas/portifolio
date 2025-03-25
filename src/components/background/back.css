@@ -1,8 +1,8 @@
 body {
     margin: 0;
     font: normal 75% Arial, Helvetica, sans-serif;
-    overflow-x: hidden; /* Evita barra de rolagem horizontal */
-    background-color: #000; /* Garante um fundo preto de fallback */
+    overflow-x: hidden; 
+    background-color: #000; 
 }
 
 canvas {
@@ -10,7 +10,7 @@ canvas {
 }
 
 #particles-js {
-    position: fixed; /* Mantém fixo apenas na tela inicial */
+    position: fixed; 
     top: 0;
     left: 0;
     width: 100vw;
@@ -18,8 +18,8 @@ canvas {
     background-color: #000000;
     background-size: cover;
     background-position: center;
-    z-index: -1; /* Garante que fique atrás do conteúdo */
-    pointer-events: none; /* Evita interferência em cliques */
+    z-index: -1; 
+    pointer-events: none; 
 }
 
 .count-particles {

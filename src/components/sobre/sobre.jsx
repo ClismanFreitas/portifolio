@@ -1,5 +1,5 @@
 import './sobre.css'
-import PerfilIcon from '@assets/images/perfil/perfil.png'
+import PerfilIcon from '../../assets/images/perfil/perfil.png'
 
 const SobreMim = () => {
     return (
