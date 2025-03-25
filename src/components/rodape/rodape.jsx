@@ -4,7 +4,6 @@ import Linkedi from "../../assets/icons/linkedi.png"
 import GitHu from "../../assets/icons/githu.png"
 import Email from "../../assets/icons/mail.png"
 
-
 const Rodape = () => {
     return (
         <footer className="baixo">
